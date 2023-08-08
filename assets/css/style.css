@@ -337,6 +337,21 @@ footer p {
         grid-row: 1/2;
     }
 
+    #projects .reverse .project-description {
+        grid-column: 1/7;
+        order: 2;
+        text-align: left;
+    }
+
+    #projects .reverse .image_frame {
+        grid-column: 6/11;
+        grid-row: 1/2;
+    }
+
+    #projects .reverse ul {
+        justify-content: flex-start;
+    }
+
     /* .image_frame {
         width: 80%;
     } */
